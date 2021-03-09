@@ -17,11 +17,11 @@ app.put('/courses/:id', (request, response) => {
 })
 
 app.patch('/courses/:id', (request, response) => {
-  return response.json(["Curso 6", "Curso 7", "Curso 4"])
+  return response.json(["Curso 6", "Curso 7", "Curso 3", "Curso 4"])
 })
 
 app.delete('/courses/:id', (request, response) => {
-  return response.json(["Curso 6", "Curso 7", "Curso 3", "Curso 4"])
+  return response.json(["Curso 6", "Curso 7", "Curso 4"])
 })
 
 app.listen(3333, () => {
